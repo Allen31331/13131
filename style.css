@@ -1,0 +1,188 @@
+/* Allen*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* 导航栏样式 */
+.navcontain {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+/* 主页内容样式 */
+.vedioscontact {
+    position: relative;
+    height: 400px;
+    background-image: url('img/appsungbackgroundvedio.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.vedioscontact1 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.vedioscontact1 p {
+    font-size: 2rem;
+}
+
+.vedioscontact1 button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.vedioscontact1 button:hover {
+    background-color: #ff3300;
+}
+
+.homepagetextandimg {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.homepageimg img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.homepagetext {
+    max-width: 500px;
+}
+
+.homepagetext h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.homepagetext p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* 页脚样式 */
+.site-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.product1div {  
+    display: flex;  
+    align-items: center;  
+    justify-content: space-between;  
+    padding: 10px;  
+    border: 1px solid #ccc; /* 可选，为了视觉效果 */  
+    margin: 10px 0; /* 可选，为了视觉效果 */  
+    width: fit-content; /* 让容器宽度适应内容 */  
+}  
+  
+.product1div img {  
+    max-width: 200px; /* 限制图片最大宽度，可根据需要调整 */  
+    max-height: 200px; /* 限制图片最大高度，可根据需要调整 */  
+}  
+  
+.product1div p {  
+    margin-left: 20px; /* 图片和描述之间的间距 */  
+    color: white; /* 保持文字颜色 */  
+    flex: 1; /* 让描述部分占据剩余空间 */  
+    text-align: left; /* 文本对齐方式 */  
+}  
+  
+.product1div button {  
+    margin-left: auto; /* 将按钮推到右边 */  
+}
+/* 博客部分样式 */  
+.blog-section {  
+    padding: 20px;  
+    max-width: 1200px;  
+    margin: 20px auto;  
+    background-color: white;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}  
+  
+.blog-section h1 {  
+    margin-top: 0;  
+}  
+  
+.blog-section .subtitle {  
+    color: #666;  
+    margin: 10px 0 20px;  
+}  
+  
+.blog-article {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    text-align: center;  
+    margin-bottom: 30px;  
+}  
+  
+.blog-image {  
+    width: 100%;  
+    max-width: 600px;  
+    height: auto;  
+    margin-bottom: 20px;  
+}  
+  
+.blog-article h2 {  
+    margin: 0 0 10px;  
+}  
+  
+.blog-article p {  
+    max-width: 600px;  
+    margin: 0 auto;  
+}  
+  
+.read-more {  
+    display: inline-block;  
+    margin-top: 10px;  
+    padding: 10px 20px;  
+    background-color: #ff6600;  
+    color: white;  
+    text-decoration: none;  
+    border-radius: 5px;  
+}  
+  
+.read-more:hover {  
+    background-color: #ff3300;  
+}  
+  
+
+
