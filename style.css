@@ -6,7 +6,7 @@ body {
     background-color: #f4f4f4;
 }
 
-/* 导航栏样式 */
+/* Navigation bar style */
 .navcontain {
     background-color: #333;
     padding: 10px 0;
@@ -35,7 +35,7 @@ body {
     background-color: #575757;
 }
 
-/* 主页内容样式 */
+/* Homepage Content Style */
 .vedioscontact {
     position: relative;
     height: 400px;
@@ -93,7 +93,7 @@ body {
     color: #666;
 }
 
-/* 页脚样式 */
+/* Footer Style */
 .site-footer {
     background-color: #333;
     color: white;
@@ -108,27 +108,27 @@ body {
     align-items: center;  
     justify-content: space-between;  
     padding: 10px;  
-    border: 1px solid #ccc; /* 可选，为了视觉效果 */  
-    margin: 10px 0; /* 可选，为了视觉效果 */  
-    width: fit-content; /* 让容器宽度适应内容 */  
+    border: 1px solid #ccc; /* Optional, for visual effect */  
+    margin: 10px 0; /* Optional, for visual effect */  
+    width: fit-content; /* Adapt the width of the container to the contents */  
 }  
   
 .product1div img {  
-    max-width: 200px; /* 限制图片最大宽度，可根据需要调整 */  
-    max-height: 200px; /* 限制图片最大高度，可根据需要调整 */  
+    max-width: 200px; /* Limit the maximum width of the image, which can be adjusted as needed */  
+    max-height: 200px; /* Limit the maximum height of the image, you can adjust it as you need */  
 }  
   
 .product1div p {  
-    margin-left: 20px; /* 图片和描述之间的间距 */  
-    color: white; /* 保持文字颜色 */  
-    flex: 1; /* 让描述部分占据剩余空间 */  
-    text-align: left; /* 文本对齐方式 */  
+    margin-left: 20px; /* Spacing between image and description */  
+    color: white; /* Keep text color */  
+    flex: 1; /* Let the description take up the remaining space */  
+    text-align: left; /* Text Alignment */  
 }  
   
 .product1div button {  
-    margin-left: auto; /* 将按钮推到右边 */  
+    margin-left: auto; /* Push the button to the right */  
 }
-/* 博客部分样式 */  
+/* Blog section style */  
 .blog-section {  
     padding: 20px;  
     max-width: 1200px;  
@@ -185,4 +185,23 @@ body {
 }  
   
 
+.support-images {
+   
+    margin: 20px 0; 
+}
 
+.support-images img {
+    height: 300px; 
+    margin-right: 10px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
+}
+
+.support-images img:last-child {
+    margin-right: 0; 
+}
+
+.support-images img:hover {
+    transform: scale(1.05); /* Zoom in on mouse hover */
+}
